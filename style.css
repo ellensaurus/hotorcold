@@ -31,6 +31,10 @@ ul li {
 	display: inline;
 }
 
+ul#guessList li {
+	margin-right:5px;
+}
+
 nav a {
 	color: #000;
 }
