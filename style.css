@@ -1,0 +1,91 @@
+body {
+	position: relative;
+	width: 98%;
+	height: 96%;
+	margin: 0px auto;
+	font-family: 'Yanone Kaffeesatz', Calibri, Arial, sans-serif;
+	background-color: #ffffff;
+	text-align: center;
+	background-image: url('background.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+ul {
+	list-style: none;
+}
+
+
+nav ul li:last-child {
+	float: right;
+}
+
+nav ul li {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14pt;
+}
+
+ul li {
+	display: inline;
+}
+
+nav a {
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav {
+	position: relative;
+	height: 10%;
+	padding: 8px;
+	display: block;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 60pt;
+	padding: 8px;
+	margin-top: 10%;
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+
+h2 {
+	margin: 30px;
+	font-size: 15pt;
+	font-weight: 400;
+	display: block;
+	line-height: 5px;
+}
+
+#count {
+	color: #404041;
+	font-weight: 700;
+	font-size: 15pt;
+}
+
+input.text {
+	text-align: center;
+	padding: 8px;
+	font-size: 15pt;
+}
+
+input.button {
+	background: #69e59d;
+	color: #e2ffb1;
+	font-size: 14pt;
+	padding: 8px;
+}
+
+ul.guessBox {
+	height: 30px;
+	width: 272px;
+	margin: 30px auto;
+	background: #eee;
+
+}

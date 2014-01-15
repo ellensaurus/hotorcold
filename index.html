@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Hot or Cold - A Thinkful Project</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+	<script src="application.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul class="links">
+				<li>
+					<a class="newGame" href="#">+New Game</a>
+				</li>
+			</ul>
+		</nav>
+
+	<h1>
+		<font color="#c71841">HOT</font>
+		<span><font color="#eee", size="19">OR</font></span>
+		<font color="19b5c2">COLD</font>
+	</h1>
+</header>
+
+<section class="game">
+	<h2 id="feedback">Take Your Best Guess!</h2>
+	<form>
+		<input type="text" name="userGuess" id="userGuess" class="text" maxlength="3" autocomplete="off" placeholder="Enter your number" required>
+		<input type="submit" id="guessButton" class="button" name="submit" value="Guess">
+	</form>
+
+	<p>
+	Guess #
+	<span id="count">0</span>!
+	</p>
+
+	<ul id="guessList" class="guessBox clearfix">
+    </ul>
+</section>
+
+<footer>
+	<p>
+		Thanks for playing!
+	</p>
+</footer>
+</body>
+</html>
+
+	
