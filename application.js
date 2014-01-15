@@ -25,7 +25,7 @@ $(document).ready(function(){
 				guessCount++;
 				setCount(guessCount);
 				$("ul#guessList").append("<li>" + userChoice + "</li>");
-				guessFlag = checkTemparature(Math.abs(randomNumber - userChoice));
+				guessFlag = checkTemperature(Math.abs(randomNumber - userChoice));
 			};
 		} else {
 			setFeedback("You Won already! Let's play again!");
